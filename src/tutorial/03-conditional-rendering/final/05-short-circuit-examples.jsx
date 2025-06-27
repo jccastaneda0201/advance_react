@@ -25,7 +25,7 @@ const ShortCircuitExamples = () => {
       {user && <SomeComponent name={user.name} />}
       <h2 style={{ margin: '1rem 0' }}>Ternary Operator</h2>
       {/* inside element */}
-      <button className='btn'>{isEditing ? 'edit' : 'add'}</button>
+      <button className="btn">{isEditing ? 'edit' : 'add'}</button>
       {/* toggle elements/components */}
       {user ? (
         <div>
@@ -44,7 +44,7 @@ const SomeComponent = ({ name }) => {
   return (
     <div>
       <h4>hello there, {name}</h4>
-      <button className='btn'>log out</button>
+      <button className="btn">log out</button>
     </div>
   );
 };
