@@ -1,11 +1,11 @@
-import Starter from './tutorial/03-conditional-rendering/starter/04-short-circuit-overview';
-import Final from './tutorial/03-conditional-rendering/final/05-short-circuit-examples';
+import Starter from './tutorial/07-useRef/final/01-useRef-basics';
+// import Final from './tutorial/05-leverage-javascript/final/Person';
 
 function App() {
   return (
     <div className="container">
-      {/* <Starter /> */}
-      <Final />
+      <Starter />
+      {/* <Final /> */}
     </div>
   );
 }
