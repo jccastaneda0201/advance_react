@@ -1,9 +1,9 @@
-import Starter from './tutorial/07-useRef/final/01-useRef-basics';
+import Starter from './tutorial/09-context-api/starter/NavBar';
 // import Final from './tutorial/05-leverage-javascript/final/Person';
 
 function App() {
   return (
-    <div className="container">
+    <div>
       <Starter />
       {/* <Final /> */}
     </div>
