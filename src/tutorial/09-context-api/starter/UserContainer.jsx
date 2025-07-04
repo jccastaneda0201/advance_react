@@ -1,4 +1,4 @@
-import { useAppContext } from './navBar';
+import { useAppContext } from './NavBar';
 
 const UserContainer = () => {
   const { user, logout } = useAppContext();
